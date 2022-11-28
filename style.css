@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #1c1d1f;
+}
+.header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 1px solid white;
+    background-color: white;
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    width: 100%;
+    /* padding-top: 30px;
+    margin: 0 56px; */
+}
+.logo {
+    width: 95px;
+    padding-top: 20px;
+    margin-left: 30px;
+
+}
+.categories1 :hover {
+    color:rgb(25, 25, 255)
+}
+.header_nav {
+    padding-top: 25px;
+    display: flex;
+    position: relative;
+}
+.header_nav summary {
+    list-style: none;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.arrow {
+    padding-left: 70px;
+}
+.header_nav a {
+    text-decoration: none;
+    color: #1c1d1f;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: .85rem;
+}
+.header_nav ul {
+    list-style: none;
+}
+.search {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+    border: 1px solid black;
+    background-color: #f7f9fa;
+    width: 550px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    align-items: center;
+    margin-top: 10px;
+}
+.search input {
+    border: none;
+    outline: none;
+    width: 95%;
+    height: 25px;
+    padding-right: 300px;
+    cursor: auto;
+    background-color: #f7f9fa;
+    font-size: .85rem;
+    font-weight: 400;
+}
+.search img {
+    filter: grayscale(100%);
+    width: 20px;
+    margin-top: 5px;
+}
+.biz {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    gap: 25px;
+    font-size: .85rem;
+    padding-top: 25px;
+}
+.biz summary {
+    list-style: none;
+}
+.biz1 a {
+    text-decoration: none;
+    color: #1c1d1f;
+}
+.biz1 :hover {
+    color:rgb(25, 25, 255)
+}
+.cart {
+    padding-top: 25px;
+}
+.cart a :hover {
+    filter: invert(10%) sepia(100%) saturate(7042%) hue-rotate(248deg) brightness(88%) contrast(145%);
+}
+.login {
+    background-color: white;
+    border: 1px solid black;
+    padding: 6px 7px;
+    height: 40px;
+    margin-top: 15px;
+}
+.login button {
+    background-color: white;
+    border: none;
+    padding: 0px 12px;
+    font-size: .85em;
+    cursor: pointer;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+}
+.signup {
+    background-color: black;
+    border: 1px solid black;
+    padding: 6px 7px;
+    height: 40px;
+    margin-top: 15px;
+}
+.signup button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0px 12px;
+    font-size: .85em;
+    cursor: pointer;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+}
+.lang_icon {
+    border: 1px solid black;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 50px;
+    padding: 0 10px;
+}
+.lang_icon img {
+    width: 25px;
+}
+.banner_container {
+    display: block;
+    margin-bottom: 0;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.banner_content {
+    padding: 26px;
+    background: #ffffff;
+    position: absolute;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    padding: 1.3rem;
+    width: 27rem;
+    height: 190px;
+    left: 4.8rem;
+    top: 8.4rem;
+    display: flex;
+    flex-direction: column;
+}
+.banner_content1{
+    color: #1c1d1f;
+    font-size: 30px;
+    margin: 0 0 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.banner_content2 {
+    font-size: 19px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.course_container {
+    padding-left: 25px;
+}
+.course_container2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 10px;
+}
+.course_container2 ul {
+    display: grid;
+    grid-auto-columns: max-content;
+    grid-auto-flow: column;
+    grid-gap: 1.6rem;
+    overflow: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-snap-stop: always;
+    touch-action: manipulation;
+    list-style: none;
+}
+.course_container2 a {
+  text-decoration: none;
+  color: #6a6f73;
+  font-weight: 700; 
+}
