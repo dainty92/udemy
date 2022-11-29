@@ -1,20 +1,4 @@
-:root {
-    --h2-font: 36px;
-    --h3-font: 22px;
-    --h4-font: 0.85em;
-    --small-P: 0.85em;
-    --medium-P: 0.95em;
-    --large-P: 1.1em;
-    --normal-font: 400;
-    --bold-font: 600;
-    --bolder-font: 900;
-    --font-times: Times;
-    --font-serif: sans-serif;
-    --section-padding: 2.8%;
-}
-  
 * {
-    scroll-behavior: smooth;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
