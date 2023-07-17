@@ -429,8 +429,8 @@ main {
 .python-course_a {
     position: absolute;
     width: 90%;
-    top: 45%;
-    margin-left: -1190px;
+    top: 40%;
+    margin-left: -1440px;
 }
   
 .python_course {
@@ -975,43 +975,55 @@ main {
     margin-right: 10px;
 }
 
-/* Add this code at the end of your existing CSS code */
-
-/* Responsive Styles for Header */
-@media (max-width: 768px) {
-  .nav2_dropdown {
-    position: static;
+/* Add this media query at the end of the CSS file */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 10px;
   }
-  .nav2_dropdown_content {
-    display: none;
-  }
-  .nav2_dropdown:hover .nav2_dropdown_content {
-    display: block;
-  }
-}
-
-/* Responsive Styles for Main Content */
-@media (max-width: 768px) {
-  .view2_b {
+  
+  .header_nav {
     flex-direction: column;
   }
-  .python_container {
-    flex-direction: column;
-  }
-  .action {
+  
+  .nav {
+    flex-wrap: wrap;
     justify-content: center;
   }
-}
-
-/* Responsive Styles for Footer */
-@media (max-width: 768px) {
-  .footer {
+  
+  .nav li {
+    margin: 10px;
+  }
+  
+  .nav3 input {
+    width: 100%;
+    max-width: none;
+  }
+  
+  .view2 .courses {
     flex-direction: column;
+    align-items: center;
   }
-  .footer .div_1 {
-    margin-bottom: 20px;
+  
+  .view2_courses {
+    height: auto;
   }
-  .footer .div_2 {
+  
+  .view4 .python1 {
+    width: 100%;
+  }
+  
+  .view8 div.div_1,
+  .view8 div.div_2 {
+    width: 100%;
     text-align: center;
+  }
+  
+  .footer .div_1 div {
+    gap: 80px;
+  }
+  
+  .footer .div_2 {
+    flex-direction: column;
+    align-items: center;
   }
 }
