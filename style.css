@@ -764,3 +764,44 @@ a button:hover {
 .footer .div_2 img {
     width: 100px;
 }
+
+/* Add this code at the end of your existing CSS code */
+
+/* Responsive Styles for Header */
+@media (max-width: 768px) {
+  .nav2_dropdown {
+    position: static;
+  }
+  .nav2_dropdown_content {
+    display: none;
+  }
+  .nav2_dropdown:hover .nav2_dropdown_content {
+    display: block;
+  }
+}
+
+/* Responsive Styles for Main Content */
+@media (max-width: 768px) {
+  .view2_b {
+    flex-direction: column;
+  }
+  .python_container {
+    flex-direction: column;
+  }
+  .action {
+    justify-content: center;
+  }
+}
+
+/* Responsive Styles for Footer */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
+  .footer .div_1 {
+    margin-bottom: 20px;
+  }
+  .footer .div_2 {
+    text-align: center;
+  }
+}
