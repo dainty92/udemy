@@ -37,6 +37,8 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+    margin: 10px;
+    width: 100%;
 }
 
 .nav {
@@ -92,6 +94,10 @@ a button:hover {
     font-size: 15px;
     margin-bottom: 20px;
     margin-left: 5px;
+}
+
+.nav2_dropdown a {
+    
 }
 
 .nav2_dropdown_content,
@@ -165,7 +171,6 @@ a button:hover {
     font-size: 14px; 
     position: absolute;
     left: 3%;
-    padding-top: 20px;
 }
   
 ::placeholder {
@@ -270,8 +275,7 @@ a button:hover {
   
   .nav7 .button3 {
     border: 1px solid #263044;
-    padding: 0;
-/*     padding: 8px 10px 5px; */
+    padding: 15px 5px;
   }
   
 .button1:hover,
@@ -424,7 +428,13 @@ main {
   
 .python_course {
     position: relative;
-    width: 48%;
+    width: 100%;
+}
+
+python-course_a {
+    position: absolute;
+    width: 90%;
+    top: 140%;
 }
   
 .python_container {
@@ -754,7 +764,6 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
 }
 
 .view6 h3 {
@@ -771,14 +780,15 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
   
 .view7 {
-/*     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 80px; */
     margin-top: 70px;
+    padding: 50px;
 }
 
 .view7 .div_1 {
@@ -786,6 +796,8 @@ main {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  flex-direction: column;
+  gap: 30px;
 }
   
 .view7 .div_1 .business {
@@ -932,7 +944,6 @@ main {
 .footer div.div_1 span.button {
   display: flex;
   align-items: center;
-  color: #007bff;
   cursor: pointer;
 }
   
